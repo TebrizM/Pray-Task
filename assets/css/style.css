@@ -1,0 +1,57 @@
+            * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            
+            body {
+                background-image: url(../images/test.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: auto;
+            }
+            
+            .dates {
+                display: block;
+                width: 100%;
+                padding: 5px;
+                margin-top: 60px;
+                border-radius: 15px;
+                height: 60px;
+            }
+            
+            .prayForm {
+                background-color: #c85e0667;
+                border-radius: 50px;
+                padding: 100px;
+                margin-top: 50px;
+            }
+            
+            .btn {
+                background-color: #d46000e8;
+                color: white;
+                text-align: center;
+                margin-left: 42%;
+                padding: 20px;
+                border-radius: 20px;
+                margin-top: 20px;
+                transition: all 0.5s linear;
+            }
+            
+            thead {
+                background-color: white;
+            }
+            
+            .table {
+                margin-top: 40px;
+            }
+            
+            tr {
+                border: 1px solid grey;
+                border-radius: 20px;
+            }
+            
+            tbody {
+                background-color: white;
+            }
